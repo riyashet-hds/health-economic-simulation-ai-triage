@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (>100MB) -- too large for GitHub
+data/nhs_reference/*.csv
+data/nhs_reference/**/*.xlsx
+data/nhs_reference/*.html
+data/nhs_reference/**/*.html
+data/nhs_reference/**/*.js
+data/nhs_reference/**/*.css
+data/nhs_reference/**/*.svg
+
+# MIMIC-IV CSVs -- users must obtain these independently via PhysioNet
+data/mimic_extracted/*.csv
+
+# Claude config
+.claude/
