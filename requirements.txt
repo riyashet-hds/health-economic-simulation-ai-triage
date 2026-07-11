@@ -1,0 +1,12 @@
+# Health Economic Simulation — Python Dependencies
+# Tested with Python 3.9+
+
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.10,<2.0
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+
+# Notebook execution
+jupyter>=1.0
+notebook>=7.0
