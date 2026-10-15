@@ -10,7 +10,7 @@ This project implements a probabilistic cost-effectiveness analysis (CEA) using 
 - **AI-assisted triage:** An AI tool that risk-stratifies patients at first presentation, fast-tracking high-risk patients to neurology
 
 The simulation integrates three data sources:
-1. **MIMIC-IV** (PhysioNet) -- empirical distributions for ED length-of-stay, hospital length-of-stay, readmission rates, and EEG ordering
+1. **MIMIC-IV** (PhysioNet) -- empirical distributions for ED length-of-stay, hospital length-of-stay and readmission rates (EEG ordering could not be recovered from the extract; see the notebook's Discussion)
 2. **Clinical literature** -- diagnostic accuracy parameters, time-to-diagnosis, QALY utility weights
 3. **NHS Reference Costs (2023/24)** -- unit costs for A&E visits, neurology consultations, EEG, and inpatient days
 
